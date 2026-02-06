@@ -10,5 +10,5 @@
 <h3>Credits:</h3>
 <ul>
 <li><a href="https://mods.vintagestory.at/show/user/016AF968C7700A212ADA">Dexapow</a>; for the <a href="https://mods.vintagestory.at/lupines">Lupines player model</a> used as a base for this.</li>
-<li>Kittomatic; for the Novabeasts which was a big inspiration for this creature.</li>
+<li><a href="https://mods.vintagestory.at/show/user/8F414EAEC3CB95A80138">Maltiez</a>; for the <a href="https://mods.vintagestory.at/playermodellib">Player Model Lib</a> which makes this work.</li>
 </ul>
