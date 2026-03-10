@@ -1,0 +1,89 @@
+{
+	"editor": {
+		"allAngles": true,
+		"entityTextureMode": true
+	},
+	"textureWidth": 72,
+	"textureHeight": 96,
+	"textureSizes": {
+		"smallfoxtex": [72,96]
+	},
+	"textures": {
+		"smallfoxtex": "floofersfox:entity/smallfoxtex"
+	},
+	"elements": [
+		{
+			"name": "KobTail",
+			"stepParentName": "Tail1",
+			"from": [ 0.0, 0.0, 0.0 ],
+			"to": [ 7.0, 4.0, 4.0 ],
+			"autoUnwrap": false,
+			"uv": [ 25.5, 49.5 ],
+			"rotationOrigin": [ 0.0, 2.0, 2.0 ],
+			"faces": {
+				"north": { "texture": "#smallfoxtex", "uv": [ 48.0, 33.5, 52.0, 40.5 ], "rotation": 90 },
+				"east": { "texture": "#smallfoxtex", "uv": [ 34.5, 45.5, 38.5, 49.5 ] },
+				"south": { "texture": "#smallfoxtex", "uv": [ 39.0, 33.5, 43.0, 40.5 ], "rotation": 270 },
+				"west": { "texture": "#smallfoxtex", "uv": [ 34.5, 45.5, 38.5, 49.5 ] },
+				"up": { "texture": "#smallfoxtex", "uv": [ 43.5, 33.5, 47.5, 40.5 ], "rotation": 270 },
+				"down": { "texture": "#smallfoxtex", "uv": [ 52.5, 33.5, 56.5, 40.5 ], "rotation": 90 }
+			},
+			"children": [
+				{
+					"name": "KobTail2",
+					"stepParentName": "Tail2",
+					"from": [ 0.0, 0.0, 0.0 ],
+					"to": [ 5.0, 3.5, 3.5 ],
+					"autoUnwrap": false,
+					"uv": [ 39.5, 44.0 ],
+					"rotationOrigin": [ 6.0, 1.75, 1.75 ],
+					"faces": {
+						"north": { "texture": "#smallfoxtex", "uv": [ 48.0, 40.5, 52.0, 45.5 ], "rotation": 90, "autoUv": false },
+						"east": { "texture": "#smallfoxtex", "uv": [ 35.0, 41.5, 38.5, 45.0 ] },
+						"south": { "texture": "#smallfoxtex", "uv": [ 39.0, 40.5, 43.0, 45.5 ], "rotation": 270, "autoUv": false },
+						"west": { "texture": "#smallfoxtex", "uv": [ 35.0, 46.0, 38.5, 49.5 ] },
+						"up": { "texture": "#smallfoxtex", "uv": [ 43.5, 40.5, 47.5, 45.5 ], "rotation": 270, "autoUv": false },
+						"down": { "texture": "#smallfoxtex", "uv": [ 52.5, 40.5, 56.5, 45.5 ], "rotation": 90, "autoUv": false }
+					},
+					"children": [
+						{
+							"name": "KobTail3",
+							"stepParentName": "Tail3",
+							"from": [ 0.0, 0.0, 0.0 ],
+							"to": [ 5.0, 3.0, 3.0 ],
+							"autoUnwrap": false,
+							"uv": [ 39.5, 52.0 ],
+							"rotationOrigin": [ 4.0, 1.5, 1.5 ],
+							"faces": {
+								"north": { "texture": "#smallfoxtex", "uv": [ 48.0, 45.5, 51.0, 50.5 ], "rotation": 90 },
+								"east": { "texture": "#smallfoxtex", "uv": [ 35.5, 38.0, 38.5, 41.0 ] },
+								"south": { "texture": "#smallfoxtex", "uv": [ 40.0, 45.5, 43.0, 50.5 ], "rotation": 270 },
+								"west": { "texture": "#smallfoxtex", "uv": [ 35.5, 42.0, 38.5, 45.0 ] },
+								"up": { "texture": "#smallfoxtex", "uv": [ 43.5, 45.5, 46.5, 50.5 ], "rotation": 270 },
+								"down": { "texture": "#smallfoxtex", "uv": [ 52.5, 45.5, 55.5, 50.5 ], "rotation": 90 }
+							},
+							"children": [
+								{
+									"name": "KobTail4",
+									"stepParentName": "Tail4",
+									"from": [ 0.0, 0.0, 0.0 ],
+									"to": [ 4.5, 2.5, 2.5 ],
+									"autoUnwrap": false,
+									"uv": [ 25.5, 45.0 ],
+									"rotationOrigin": [ 4.0, 1.25, 1.25 ],
+									"faces": {
+										"north": { "texture": "#smallfoxtex", "uv": [ 48.0, 50.5, 50.5, 55.0 ], "rotation": 90 },
+										"east": { "texture": "#smallfoxtex", "uv": [ 36.0, 35.0, 38.5, 37.5 ] },
+										"south": { "texture": "#smallfoxtex", "uv": [ 40.5, 50.5, 43.0, 55.0 ], "rotation": 270 },
+										"west": { "texture": "#smallfoxtex", "uv": [ 36.0, 38.5, 38.5, 41.0 ] },
+										"up": { "texture": "#smallfoxtex", "uv": [ 43.5, 50.5, 46.0, 55.0 ], "rotation": 270 },
+										"down": { "texture": "#smallfoxtex", "uv": [ 52.5, 50.5, 55.0, 55.0 ], "rotation": 90 }
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]}

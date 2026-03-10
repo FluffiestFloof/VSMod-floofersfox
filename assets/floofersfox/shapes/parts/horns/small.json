@@ -1,0 +1,54 @@
+{
+	"editor": {
+		"collapsedPaths": "",
+		"allAngles": false,
+		"entityTextureMode": true
+	},
+	"textureWidth": 32,
+	"textureHeight": 32,
+	"textureSizes": {
+		"hornstex": [32,32]
+	},
+	"textures": {
+		"hornstex": "floofersfox:parts/horns/black"
+	},
+	"elements": [
+		{
+			"name": "HornR",
+			"stepParentName": "Head",
+			"from": [ 0.5, 4.7, 1.6 ],
+			"to": [ 1.0, 6.7, 2.1 ],
+			"autoUnwrap": false,
+			"uv": [ 6.0, 4.375 ],
+			"rotationOrigin": [ 0.75, 4.7, 1.85 ],
+			"rotationX": -5.0,
+			"rotationZ": -10.0,
+			"faces": {
+				"north": { "texture": "#hornstex", "uv": [ 12.0, 5.0, 20.0, 9.0 ], "rotation": 270, "autoUv": false },
+				"east": { "texture": "#hornstex", "uv": [ 12.0, 3.0, 20.0, 7.0 ], "rotation": 270, "autoUv": false },
+				"south": { "texture": "#hornstex", "uv": [ 12.0, 0.0, 20.0, 4.0 ], "rotation": 270, "autoUv": false },
+				"west": { "texture": "#hornstex", "uv": [ 12.0, 1.0, 20.0, 5.0 ], "rotation": 270, "autoUv": false },
+				"up": { "texture": "#hornstex", "uv": [ 20.0, 5.0, 24.0, 9.0 ], "autoUv": false },
+				"down": { "texture": "#hornstex", "uv": [ 8.0, 0.0, 12.0, 4.0 ], "autoUv": false }
+			}
+		},
+		{
+			"name": "HornL",
+			"stepParentName": "Head",
+			"from": [ 0.5, 4.7, 2.9 ],
+			"to": [ 1.0, 6.7, 3.4 ],
+			"autoUnwrap": false,
+			"uv": [ 6.0, 4.375 ],
+			"rotationOrigin": [ 0.75, 4.7, 3.15 ],
+			"rotationX": 5.0,
+			"rotationZ": -10.0,
+			"faces": {
+				"north": { "texture": "#hornstex", "uv": [ 12.0, 5.0, 20.0, 9.0 ], "rotation": 270, "autoUv": false },
+				"east": { "texture": "#hornstex", "uv": [ 12.0, 0.0, 20.0, 4.0 ], "rotation": 270, "autoUv": false },
+				"south": { "texture": "#hornstex", "uv": [ 12.0, 3.0, 20.0, 7.0 ], "rotation": 270, "autoUv": false },
+				"west": { "texture": "#hornstex", "uv": [ 12.0, 1.0, 20.0, 5.0 ], "rotation": 270, "autoUv": false },
+				"up": { "texture": "#hornstex", "uv": [ 20.0, 0.0, 24.0, 4.0 ], "autoUv": false },
+				"down": { "texture": "#hornstex", "uv": [ 8.0, 5.0, 12.0, 9.0 ], "autoUv": false }
+			}
+		}
+	]}

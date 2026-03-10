@@ -1,0 +1,17 @@
+{
+  "type": "content",
+  "name": "Anthro Fox Playermodel",
+  "modid": "floofersfox",
+  "version": "0.1.0",
+  
+  "description": "A small anthro fox player model.",
+  "authors": [ "FluffiestFloofer" ],
+
+  "dependencies": {
+    "playermodellib": "1.5.10"
+  },
+
+  "side" : "universal",
+  "requiredOnClient": true,
+  "requiredOnServer": true
+}
